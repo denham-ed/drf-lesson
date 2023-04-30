@@ -15,4 +15,4 @@ RUN mkdir /code
 WORKDIR /code
 COPY ./server.py .
 
-ENTRYPOINT ["python","./server.py"]
+ENTRYPOINT []
